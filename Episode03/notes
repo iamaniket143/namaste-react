@@ -1,0 +1,18 @@
+React.createElement => is a JS Object => after rendering it becomes HTML element
+
+but it is tedious task, not developer friendly
+
+JSX is solution for above problem
+JSX is a JS syntax which is easier to create React Elements
+JSX is not a fundamental part of React 
+
+JSX is a convention where we merge HTML and JS together
+JSX is HTML like syntax
+
+created using React const heading = React.createElement("h1",{},"React");
+created using JSX const heading = <h1>React</h1>
+both are same
+
+process initiated by parcel but using Babel => JSX code transpiled(converting code in browser understandle format) before it reaches to JS Engine
+JSX to createReactElement done by Babel
+JSX => React.createElement => is a JS Object => after rendering it becomes HTML element

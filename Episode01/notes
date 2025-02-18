@@ -1,0 +1,14 @@
+npm init for npm initilization
+
+then we can install packages
+
+npm install parcel, npm i packages
+
+package.json file contains initial version of different packages
+package.lock.json file contains exact version of different packages
+node_modules folder contains all the packages that are in above files
+
+
+
+npm install react
+npm install react-dom

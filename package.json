@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "this is namaste react by Akshay Saini",
   "scripts": {
+    "st": "parcel ./common/index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {

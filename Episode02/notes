@@ -1,0 +1,17 @@
+for dev build
+npx parcel <location>
+
+for prod build
+npx parcel build <location>
+
+to shorten this process we can use scripts in package.json file
+"scripts": {
+    "st": "parcel ./common/index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+},
+
+after this we can use
+npm run start/npm start
+npm run build
