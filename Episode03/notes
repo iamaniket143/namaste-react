@@ -13,6 +13,15 @@ created using React const heading = React.createElement("h1",{},"React");
 created using JSX const heading = <h1>React</h1>
 both are same
 
+Babel is JS Compiler
 process initiated by parcel but using Babel => JSX code transpiled(converting code in browser understandle format) before it reaches to JS Engine
 JSX to createReactElement done by Babel
 JSX => React.createElement => is a JS Object => after rendering it becomes HTML element
+
+wrap it inside round brackets if writing multiline JSX
+
+React Component (JS Function)
+Class Based Component old way
+Functional Component new way, a function which returns react element
+
+{} inside this we can inject JS code
