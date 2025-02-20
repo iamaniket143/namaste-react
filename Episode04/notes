@@ -1,0 +1,27 @@
+# Building Food Ordering App
+
+Planning is important
+
+Components
+Header
+    Logo
+    Nav Items
+Body
+    Search
+    Restaurant Container
+        Restaurant Card
+Footer
+    Copyright
+    Links
+    Contact
+
+
+build basic structure
+applied css
+how to make cards dynamic
+props are agruments to function
+
+exploring Swiggy API
+Config Driven UI => controlling UI depending on data
+
+map method to iterate array
