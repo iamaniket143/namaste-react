@@ -1,0 +1,22 @@
+lets get hooked
+
+restructuring code
+static data should be kept in one file
+
+named export,default export
+one default export per file
+
+Building top rated restaurant feature
+added click handlers
+
+to update UI as soon as Data changes, we use useState hook
+
+Hooks: JS utility function given to us by React
+useState, useEffect (imp both)
+
+whenever state variable changes, React re-renders the component
+
+Reconciliation algorithm/React Fible => 
+virtual dom is representation of an actual dom
+
+Diff algorithm find the difference betweewn previous vdom and updated vdom
