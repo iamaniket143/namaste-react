@@ -29,3 +29,6 @@ conditional rendering used in case on Shimmer UI
 whole component gets rerendered
 
 Building Search functionality
+1. One list for restaurant search
+2. One list for rendering data
+Code Slow
