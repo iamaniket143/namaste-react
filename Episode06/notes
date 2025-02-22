@@ -1,0 +1,31 @@
+Exploring the World
+
+Monolith Vs Microservices
+
+Monolith means all services in single project
+
+Microservices means different project for different services
+
+Separation of concern
+
+how different services interact with each other?
+through calling api hosted on different ports with same domain
+
+2 ways to fetch data from API
+1. after page load then API call then render UI
+2. after page load then render UI then API call then rerender
+
+use 2nd approach Better UX
+useEffect Hook
+useEffect(callback, dependency array)
+callback will call after component renders
+
+CORS policy
+
+Shimmer UI
+
+conditional rendering used in case on Shimmer UI
+
+whole component gets rerendered
+
+Building Search functionality
