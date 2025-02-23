@@ -1,0 +1,32 @@
+Episode 07 Finding The Path
+
+useEffect
+useEffect will be called everytime when the component renders, but to change this behaviour we pass dependency array, 
+if dependency array is empty it will render only one time after page renders 1st time, 
+if dependency array contains some data it will renders as the data updates
+
+useEffect
+It should be created in Component not outside
+
+Routes:
+Routing configuration at Root level
+createBrowserRouter => contains list of paths (path,element,errorElement)
+
+RouterProvider => provide routing configuration to App (<RouterProvider router={appRouter}>)
+
+Children Layout of AppLayout
+children => contains list of paths
+Outlet will be filled according to path
+
+use Link component to redirect to path
+dont use a href, it will reload page
+
+2 types of Routing in web apps
+1. Client side (React) 
+2. Server side
+
+<!--  -->
+Creating Restaurant Menu Page
+fetch res menu using SWIGGY API using resId
+read <resId> using useParams hook
+navigate the restaurants to "/restaurant/resId" path

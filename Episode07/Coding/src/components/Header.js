@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { LOGO_URL } from "../utils/constants";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const [userState,setUserState] = useState("Login");
@@ -8,14 +9,14 @@ const Header = () => {
     }
     return (<div className="header">
         <div className="logo-container">
-            <img className="logo" src={LOGO_URL}></img>
+        <Link to="/"><img className="logo" src={LOGO_URL}></img></Link>
         </div>
         <div className="nav-items">
             <ul>
-                <li>Home</li>
-                <li>Abous Us</li>
-                <li>Contact Us</li>
-                <li>Cart</li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">Abous Us</Link></li>
+                <li><Link to="/contact">Contact Us</Link></li>
+                <li><Link to="/cart">Cart</Link></li>
                 <button onClick={handleClick} className="login-btn">{userState}</button>
             </ul>
         </div>

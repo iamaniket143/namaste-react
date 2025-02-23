@@ -1,3 +1,18 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:hover, a:active, a:focus {
+  text-decoration: none; /* Removes underline on hover/active/focus */
+  color: inherit;        /* Keeps the inherited color */
+}
+
 .header {
     display:flex;
     justify-content: space-between;
