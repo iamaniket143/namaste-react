@@ -1,0 +1,60 @@
+Lets Get Classy
+
+Class based component: old way
+show information of team members on About page
+first create functional component then convert it to class component
+
+React.Component
+
+#How to pass props
+create constructor in Class
+constructor(props) {
+        super(props);
+        console.log(props);
+    }
+    
+<h1>h1{this.props.name}</h1>
+
+#Hooks
+no hooks in class component
+state variables are created in Constructor this.state=Obj (example this.state={count: 1,count2: 2,} )state is reserve word, it contains all state variables
+
+#Update the state variables
+can't update directly this.state.count=1;
+this.setState({count: this.state.count+1,count2: this.state.count2+1})
+
+#LIFECYCLE of Class Based Component
+Loading/Mounting same thing
+
+1. Load/Mount
+
+1. Constructor
+2. Render
+3. component Did Mount (to make API call)
+
+
+1 parent and 2 or more child
+Mounting phase
+Render phase => 1. constructor 2. render
+Commit phase => updates DOM and refs in a single batch (because DOM manipulation is costly operation)
+
+#How to Make API call
+make did mount function as async
+
+#How to Update JSON data to web page
+make state variable
+
+MOUNTING:
+Constructor (Dummy)
+Render (Dummy)
+        HTML (Dummy)
+Component Did Mount
+    API call
+    this.setState => state variable is updated
+
+UPDATE:
+Render (API data)
+HTML (API data)
+Component Did Update
+
+ComponentWillUnmount will be called when Component unmount from page
