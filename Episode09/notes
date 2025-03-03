@@ -1,0 +1,20 @@
+Optimizing our App
+
+#Custom hooks (Restaurant Menu)
+created useRestaurantInfo and useRestaurantMenu hooks
+
+How to write hooks?
+finalize the contract means what is input & output
+
+created useOnlineStatus hook
+use online event listener
+
+Grocery
+#to break down App into smaller chunks instead of having 1 big file
+Chunking
+Code Splitting
+Dynamic bundling
+Lazy loading
+On demand loading
+const Grocery = lazy(callback => import(location))
+<Suspense fallback={JSX}><Grocery>/Suspense>
